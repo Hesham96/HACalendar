@@ -73,6 +73,18 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
         self.navigationController?.present(vc, animated: true, completion: nil)
     }
     
+    @IBAction func changeToEnglishAction(_ sender: Any) {
+        if LanguageManager.shared.currentLanguage == .ar {
+            LanguageManager.shared.setLanguage(language: .en)
+        }
+    }
+    
+    @IBAction func changeToArabicAction(_ sender: Any) {
+        if LanguageManager.shared.currentLanguage == .en {
+            LanguageManager.shared.setLanguage(language: .ar)
+        }
+    }
+    
     
     //MARK: CollectionView Handling
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -190,5 +202,26 @@ extension ReminderVC : UICollectionViewDelegateFlowLayout{
                         layout collectionViewLayout: UICollectionViewLayout,
                         insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
+    }
+}
+
+extension ReminderVC{
+    func changLanguage() {
+        
+        // Create Alet View Controller
+//        let alertController = alertViewController( "Change Language".locale,message:"",preferredStyle:.actionSheet)
+        // Create Upgrade Action
+//        let englishAction = defaultAlertAction("English") { (action) in
+//            if LanguageManager.shared.currentLanguage == .ar {
+//                self.setLanguage(.en)
+//            }
+//        }
+        // Create Upgrade Action
+//        let arabicAction = defaultAlertAction("العربية") { (action) in
+//            if LanguageManager.shared.currentLanguage == .en {
+//                self.setLanguage(.ar)
+//            }
+//        }
+        
     }
 }
