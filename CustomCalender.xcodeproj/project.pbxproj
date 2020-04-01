@@ -40,11 +40,11 @@
 		709F0F1A24351D0D0094184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		709F0F1E24351D7D0094184A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		709F0F2024351E960094184A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		709F0F28243520E00094184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70A774372435175F00BC16A7 /* CustomCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A7743A2435175F00BC16A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A7743C2435175F00BC16A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		70A7743E2435175F00BC16A7 /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
-		70A774412435175F00BC16A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70A774432435176000BC16A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A774462435176000BC16A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A774482435176000BC16A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -91,6 +91,58 @@
 			path = LanguageManger;
 			sourceTree = "<group>";
 		};
+		709F0F292435235B0094184A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70A774402435175F00BC16A7 /* Main.storyboard */,
+				709F0F2C243523750094184A /* Cells */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		709F0F2A2435235E0094184A /* Supported Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supported Files";
+			sourceTree = "<group>";
+		};
+		709F0F2B243523610094184A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				701A11BD24351BBE0017484A /* CalenderDate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		709F0F2C243523750094184A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				701A11B824351AB90017484A /* CalenderCell.swift */,
+				701A11B724351AB90017484A /* CalenderCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		709F0F2D243523B70094184A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				70A7743E2435175F00BC16A7 /* ReminderVC.swift */,
+				70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		709F0F2E243523D50094184A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				709F0F2024351E960094184A /* UIColor+Extension.swift */,
+				709F0F1E24351D7D0094184A /* String+Extension.swift */,
+				701A11BB24351B3B0017484A /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		70A7742E2435175F00BC16A7 = {
 			isa = PBXGroup;
 			children = (
@@ -112,18 +164,14 @@
 		70A774392435175F00BC16A7 /* CustomCalender */ = {
 			isa = PBXGroup;
 			children = (
+				709F0F2E243523D50094184A /* Extensions */,
+				709F0F2A2435235E0094184A /* Supported Files */,
+				709F0F2B243523610094184A /* Model */,
+				709F0F2D243523B70094184A /* ViewController */,
+				709F0F292435235B0094184A /* View */,
 				709F0F1424351D0D0094184A /* LanguageManger */,
 				70A7743A2435175F00BC16A7 /* AppDelegate.swift */,
 				70A7743C2435175F00BC16A7 /* SceneDelegate.swift */,
-				709F0F2024351E960094184A /* UIColor+Extension.swift */,
-				70A7743E2435175F00BC16A7 /* ReminderVC.swift */,
-				70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */,
-				70A774402435175F00BC16A7 /* Main.storyboard */,
-				701A11B824351AB90017484A /* CalenderCell.swift */,
-				701A11B724351AB90017484A /* CalenderCell.xib */,
-				709F0F1E24351D7D0094184A /* String+Extension.swift */,
-				701A11BB24351B3B0017484A /* Date+Extension.swift */,
-				701A11BD24351BBE0017484A /* CalenderDate.swift */,
 				70A774432435176000BC16A7 /* Assets.xcassets */,
 				70A774452435176000BC16A7 /* LaunchScreen.storyboard */,
 				70A774482435176000BC16A7 /* Info.plist */,
@@ -279,7 +327,7 @@
 		70A774402435175F00BC16A7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				70A774412435175F00BC16A7 /* Base */,
+				709F0F28243520E00094184A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

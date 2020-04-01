@@ -9,9 +9,7 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     var monthIndex:Int?
     var yearIndex:Int?
     var dayIndex:Int = 0
-    
-    var didScrolled:Bool = false
-    
+        
     @IBOutlet weak var monthLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -35,7 +33,7 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     }
     
     func setup(){
-//        navigationItem.title = "Medication Reminder".locale
+        navigationItem.title = "Custom Calender".locale
         collectionView.delegate = self
         collectionView.dataSource = self
         collectionViewCellRegister()
@@ -68,11 +66,11 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     
     //MARK: Open Calender
     @IBAction func openCalenderAction(_ sender: Any) {
-        let storyboard = UIStoryboard(name: "Reminder", bundle: nil)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let vc = storyboard.instantiateViewController(withIdentifier: "ReminderDatePicker") as! ReminderDatePicker
         vc.modalPresentationStyle = .overCurrentContext
         vc.delegate = self
-        self.tabBarController?.present(vc, animated: true, completion: nil)
+        self.navigationController?.present(vc, animated: true, completion: nil)
     }
     
     
