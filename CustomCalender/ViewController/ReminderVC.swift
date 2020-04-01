@@ -75,13 +75,13 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     
     @IBAction func changeToEnglishAction(_ sender: Any) {
         if LanguageManager.shared.currentLanguage == .ar {
-            LanguageManager.shared.setLanguage(language: .en)
+//            LanguageManager.shared.setLanguage(language: .en)
         }
     }
     
     @IBAction func changeToArabicAction(_ sender: Any) {
         if LanguageManager.shared.currentLanguage == .en {
-            LanguageManager.shared.setLanguage(language: .ar)
+//            LanguageManager.shared.setLanguage(language: .ar)
         }
     }
     
@@ -182,7 +182,6 @@ extension ReminderVC : ReminderDatePickerDelegate {
                 "isSelected":item == selectedDay,
             ]
             let calenderDate = CalenderDate(JSON(data))
-            print("item..",item)
             calenderDates.append(calenderDate)
         }
         return calenderDates
