@@ -149,6 +149,15 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		709F0F31243526820094184A /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				70A7743A2435175F00BC16A7 /* AppDelegate.swift */,
+				70A7743C2435175F00BC16A7 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
 		70A7742E2435175F00BC16A7 = {
 			isa = PBXGroup;
 			children = (
@@ -170,12 +179,11 @@
 		70A774392435175F00BC16A7 /* CustomCalender */ = {
 			isa = PBXGroup;
 			children = (
+				709F0F31243526820094184A /* App Delegate */,
 				709F0F2A2435235E0094184A /* Supported Files */,
 				709F0F2B243523610094184A /* Model */,
 				709F0F2D243523B70094184A /* ViewController */,
 				709F0F292435235B0094184A /* View */,
-				70A7743A2435175F00BC16A7 /* AppDelegate.swift */,
-				70A7743C2435175F00BC16A7 /* SceneDelegate.swift */,
 				70A774432435176000BC16A7 /* Assets.xcassets */,
 				70A774482435176000BC16A7 /* Info.plist */,
 			);

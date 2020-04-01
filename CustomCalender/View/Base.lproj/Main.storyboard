@@ -60,23 +60,43 @@
                                 </collectionViewFlowLayout>
                                 <cells/>
                             </collectionView>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="2dm-UR-7Vo">
-                                <rect key="frame" x="0.0" y="253" width="414" height="609"/>
-                                <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
-                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jaS-7X-pSa">
+                                <rect key="frame" x="16" y="285" width="382" height="48"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.70588235290000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="EGD-23-Gja"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <state key="normal" title="English">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="odV-tX-HWi">
+                                <rect key="frame" x="16" y="349" width="382" height="48"/>
+                                <color key="backgroundColor" red="0.23137254900000001" green="0.70588235290000001" blue="0.31372549020000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="MSm-Rz-GXD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="21"/>
+                                <state key="normal" title="عربي">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="0pM-9D-tQG" firstAttribute="leading" secondItem="pqQ-zu-CHD" secondAttribute="leading" id="453-Za-gna"/>
                             <constraint firstItem="e9K-g7-0Un" firstAttribute="leading" secondItem="pqQ-zu-CHD" secondAttribute="leading" id="CdK-Qe-63B"/>
-                            <constraint firstItem="pqQ-zu-CHD" firstAttribute="trailing" secondItem="2dm-UR-7Vo" secondAttribute="trailing" id="I5F-Wq-9F6"/>
-                            <constraint firstItem="2dm-UR-7Vo" firstAttribute="top" secondItem="0pM-9D-tQG" secondAttribute="bottom" id="KKv-AD-HEP"/>
+                            <constraint firstItem="odV-tX-HWi" firstAttribute="trailing" secondItem="jaS-7X-pSa" secondAttribute="trailing" id="Leh-5r-7Co"/>
                             <constraint firstItem="e9K-g7-0Un" firstAttribute="top" secondItem="pqQ-zu-CHD" secondAttribute="top" id="UCZ-zd-liJ"/>
-                            <constraint firstItem="pqQ-zu-CHD" firstAttribute="bottom" secondItem="2dm-UR-7Vo" secondAttribute="bottom" id="YUL-8v-5by"/>
+                            <constraint firstItem="odV-tX-HWi" firstAttribute="top" secondItem="jaS-7X-pSa" secondAttribute="bottom" constant="16" id="ZUY-N7-u2q"/>
                             <constraint firstItem="0pM-9D-tQG" firstAttribute="top" secondItem="e9K-g7-0Un" secondAttribute="bottom" id="b5z-lU-fMj"/>
-                            <constraint firstItem="2dm-UR-7Vo" firstAttribute="leading" secondItem="pqQ-zu-CHD" secondAttribute="leading" id="bJM-qr-JmW"/>
                             <constraint firstItem="pqQ-zu-CHD" firstAttribute="trailing" secondItem="e9K-g7-0Un" secondAttribute="trailing" id="dYf-6q-fFf"/>
+                            <constraint firstItem="jaS-7X-pSa" firstAttribute="top" secondItem="0pM-9D-tQG" secondAttribute="bottom" constant="32" id="dpw-1h-Ahm"/>
+                            <constraint firstItem="odV-tX-HWi" firstAttribute="leading" secondItem="jaS-7X-pSa" secondAttribute="leading" id="g4g-xr-qEp"/>
+                            <constraint firstItem="pqQ-zu-CHD" firstAttribute="trailing" secondItem="jaS-7X-pSa" secondAttribute="trailing" constant="16" id="jhD-qi-dLY"/>
                             <constraint firstItem="pqQ-zu-CHD" firstAttribute="trailing" secondItem="0pM-9D-tQG" secondAttribute="trailing" id="net-xS-dXJ"/>
+                            <constraint firstItem="jaS-7X-pSa" firstAttribute="leading" secondItem="pqQ-zu-CHD" secondAttribute="leading" constant="16" id="vKo-YO-gsb"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="pqQ-zu-CHD"/>
                     </view>
