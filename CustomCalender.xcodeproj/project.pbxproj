@@ -16,6 +16,7 @@
 		709F0F1D24351D0D0094184A /* BundleLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F1924351D0D0094184A /* BundleLanguage.swift */; };
 		709F0F1F24351D7D0094184A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F1E24351D7D0094184A /* String+Extension.swift */; };
 		709F0F2124351E960094184A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F2024351E960094184A /* UIColor+Extension.swift */; };
+		709F0F30243526110094184A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F2F243526110094184A /* UIView+Extension.swift */; };
 		70A7743B2435175F00BC16A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743A2435175F00BC16A7 /* AppDelegate.swift */; };
 		70A7743D2435175F00BC16A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743C2435175F00BC16A7 /* SceneDelegate.swift */; };
 		70A7743F2435175F00BC16A7 /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743E2435175F00BC16A7 /* ReminderVC.swift */; };
@@ -41,6 +42,7 @@
 		709F0F1E24351D7D0094184A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		709F0F2024351E960094184A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		709F0F28243520E00094184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		709F0F2F243526110094184A /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		70A774372435175F00BC16A7 /* CustomCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A7743A2435175F00BC16A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A7743C2435175F00BC16A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 		709F0F292435235B0094184A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				70A774452435176000BC16A7 /* LaunchScreen.storyboard */,
 				70A774402435175F00BC16A7 /* Main.storyboard */,
 				709F0F2C243523750094184A /* Cells */,
 			);
@@ -103,6 +106,8 @@
 		709F0F2A2435235E0094184A /* Supported Files */ = {
 			isa = PBXGroup;
 			children = (
+				709F0F1424351D0D0094184A /* LanguageManger */,
+				709F0F2E243523D50094184A /* Extensions */,
 			);
 			path = "Supported Files";
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				709F0F2024351E960094184A /* UIColor+Extension.swift */,
 				709F0F1E24351D7D0094184A /* String+Extension.swift */,
 				701A11BB24351B3B0017484A /* Date+Extension.swift */,
+				709F0F2F243526110094184A /* UIView+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -164,16 +170,13 @@
 		70A774392435175F00BC16A7 /* CustomCalender */ = {
 			isa = PBXGroup;
 			children = (
-				709F0F2E243523D50094184A /* Extensions */,
 				709F0F2A2435235E0094184A /* Supported Files */,
 				709F0F2B243523610094184A /* Model */,
 				709F0F2D243523B70094184A /* ViewController */,
 				709F0F292435235B0094184A /* View */,
-				709F0F1424351D0D0094184A /* LanguageManger */,
 				70A7743A2435175F00BC16A7 /* AppDelegate.swift */,
 				70A7743C2435175F00BC16A7 /* SceneDelegate.swift */,
 				70A774432435176000BC16A7 /* Assets.xcassets */,
-				70A774452435176000BC16A7 /* LaunchScreen.storyboard */,
 				70A774482435176000BC16A7 /* Info.plist */,
 			);
 			path = CustomCalender;
@@ -302,6 +305,7 @@
 				709F0F1D24351D0D0094184A /* BundleLanguage.swift in Sources */,
 				709F0F1F24351D7D0094184A /* String+Extension.swift in Sources */,
 				701A11BA24351AB90017484A /* CalenderCell.swift in Sources */,
+				709F0F30243526110094184A /* UIView+Extension.swift in Sources */,
 				701A11BE24351BBE0017484A /* CalenderDate.swift in Sources */,
 				70A7743B2435175F00BC16A7 /* AppDelegate.swift in Sources */,
 				70A7743D2435175F00BC16A7 /* SceneDelegate.swift in Sources */,
