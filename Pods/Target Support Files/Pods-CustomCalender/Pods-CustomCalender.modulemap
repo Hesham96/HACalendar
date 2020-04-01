@@ -1,0 +1,6 @@
+framework module Pods_CustomCalender {
+  umbrella header "Pods-CustomCalender-umbrella.h"
+
+  export *
+  module * { export * }
+}

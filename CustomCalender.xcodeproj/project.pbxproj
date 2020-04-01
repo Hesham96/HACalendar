@@ -3,27 +3,53 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		701A11B924351AB90017484A /* CalenderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 701A11B724351AB90017484A /* CalenderCell.xib */; };
+		701A11BA24351AB90017484A /* CalenderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A11B824351AB90017484A /* CalenderCell.swift */; };
+		701A11BC24351B3B0017484A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A11BB24351B3B0017484A /* Date+Extension.swift */; };
+		701A11BE24351BBE0017484A /* CalenderDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701A11BD24351BBE0017484A /* CalenderDate.swift */; };
+		709F0F1B24351D0D0094184A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 709F0F1524351D0D0094184A /* Localizable.strings */; };
+		709F0F1C24351D0D0094184A /* LanguageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F1824351D0D0094184A /* LanguageManager.swift */; };
+		709F0F1D24351D0D0094184A /* BundleLanguage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F1924351D0D0094184A /* BundleLanguage.swift */; };
+		709F0F1F24351D7D0094184A /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F1E24351D7D0094184A /* String+Extension.swift */; };
+		709F0F2124351E960094184A /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F2024351E960094184A /* UIColor+Extension.swift */; };
 		70A7743B2435175F00BC16A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743A2435175F00BC16A7 /* AppDelegate.swift */; };
 		70A7743D2435175F00BC16A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743C2435175F00BC16A7 /* SceneDelegate.swift */; };
-		70A7743F2435175F00BC16A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743E2435175F00BC16A7 /* ViewController.swift */; };
+		70A7743F2435175F00BC16A7 /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743E2435175F00BC16A7 /* ReminderVC.swift */; };
 		70A774422435175F00BC16A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A774402435175F00BC16A7 /* Main.storyboard */; };
 		70A774442435176000BC16A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A774432435176000BC16A7 /* Assets.xcassets */; };
 		70A774472435176000BC16A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A774452435176000BC16A7 /* LaunchScreen.storyboard */; };
+		70A7744F2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */; };
+		9253D844EF56784F80520B99 /* Pods_CustomCalender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FA1012E8B387FEE40FA380 /* Pods_CustomCalender.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2709D402724FEDD20AE0D8D9 /* Pods-CustomCalender.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCalender.release.xcconfig"; path = "Target Support Files/Pods-CustomCalender/Pods-CustomCalender.release.xcconfig"; sourceTree = "<group>"; };
+		38FA1012E8B387FEE40FA380 /* Pods_CustomCalender.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomCalender.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		701A11B724351AB90017484A /* CalenderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CalenderCell.xib; sourceTree = "<group>"; };
+		701A11B824351AB90017484A /* CalenderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderCell.swift; sourceTree = "<group>"; };
+		701A11BB24351B3B0017484A /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		701A11BD24351BBE0017484A /* CalenderDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderDate.swift; sourceTree = "<group>"; };
+		709F0F1624351D0D0094184A /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		709F0F1724351D0D0094184A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		709F0F1824351D0D0094184A /* LanguageManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageManager.swift; sourceTree = "<group>"; };
+		709F0F1924351D0D0094184A /* BundleLanguage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BundleLanguage.swift; sourceTree = "<group>"; };
+		709F0F1A24351D0D0094184A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		709F0F1E24351D7D0094184A /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		709F0F2024351E960094184A /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		70A774372435175F00BC16A7 /* CustomCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A7743A2435175F00BC16A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A7743C2435175F00BC16A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70A7743E2435175F00BC16A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70A7743E2435175F00BC16A7 /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
 		70A774412435175F00BC16A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70A774432435176000BC16A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A774462435176000BC16A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A774482435176000BC16A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReminderDatePicker+Delegate.swift"; sourceTree = "<group>"; };
+		74927FFC507C12EE17625DE0 /* Pods-CustomCalender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCalender.debug.xcconfig"; path = "Target Support Files/Pods-CustomCalender/Pods-CustomCalender.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +57,47 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9253D844EF56784F80520B99 /* Pods_CustomCalender.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03FF68FC852A654A272FCB40 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				74927FFC507C12EE17625DE0 /* Pods-CustomCalender.debug.xcconfig */,
+				2709D402724FEDD20AE0D8D9 /* Pods-CustomCalender.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B2DC7D3B8EFD51AA9CEED2C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38FA1012E8B387FEE40FA380 /* Pods_CustomCalender.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		709F0F1424351D0D0094184A /* LanguageManger */ = {
+			isa = PBXGroup;
+			children = (
+				709F0F1524351D0D0094184A /* Localizable.strings */,
+				709F0F1824351D0D0094184A /* LanguageManager.swift */,
+				709F0F1924351D0D0094184A /* BundleLanguage.swift */,
+			);
+			path = LanguageManger;
+			sourceTree = "<group>";
+		};
 		70A7742E2435175F00BC16A7 = {
 			isa = PBXGroup;
 			children = (
 				70A774392435175F00BC16A7 /* CustomCalender */,
 				70A774382435175F00BC16A7 /* Products */,
+				03FF68FC852A654A272FCB40 /* Pods */,
+				6B2DC7D3B8EFD51AA9CEED2C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +112,18 @@
 		70A774392435175F00BC16A7 /* CustomCalender */ = {
 			isa = PBXGroup;
 			children = (
+				709F0F1424351D0D0094184A /* LanguageManger */,
 				70A7743A2435175F00BC16A7 /* AppDelegate.swift */,
 				70A7743C2435175F00BC16A7 /* SceneDelegate.swift */,
-				70A7743E2435175F00BC16A7 /* ViewController.swift */,
+				709F0F2024351E960094184A /* UIColor+Extension.swift */,
+				70A7743E2435175F00BC16A7 /* ReminderVC.swift */,
+				70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */,
 				70A774402435175F00BC16A7 /* Main.storyboard */,
+				701A11B824351AB90017484A /* CalenderCell.swift */,
+				701A11B724351AB90017484A /* CalenderCell.xib */,
+				709F0F1E24351D7D0094184A /* String+Extension.swift */,
+				701A11BB24351B3B0017484A /* Date+Extension.swift */,
+				701A11BD24351BBE0017484A /* CalenderDate.swift */,
 				70A774432435176000BC16A7 /* Assets.xcassets */,
 				70A774452435176000BC16A7 /* LaunchScreen.storyboard */,
 				70A774482435176000BC16A7 /* Info.plist */,
@@ -74,9 +138,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70A7744B2435176000BC16A7 /* Build configuration list for PBXNativeTarget "CustomCalender" */;
 			buildPhases = (
+				18591E5D4CFACCDFC092BE62 /* [CP] Check Pods Manifest.lock */,
 				70A774332435175F00BC16A7 /* Sources */,
 				70A774342435175F00BC16A7 /* Frameworks */,
 				70A774352435175F00BC16A7 /* Resources */,
+				F9170EAF164BA0C9C43802E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -109,6 +175,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = 70A7742E2435175F00BC16A7;
 			productRefGroup = 70A774382435175F00BC16A7 /* Products */;
@@ -125,28 +192,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				709F0F1B24351D0D0094184A /* Localizable.strings in Resources */,
 				70A774472435176000BC16A7 /* LaunchScreen.storyboard in Resources */,
 				70A774442435176000BC16A7 /* Assets.xcassets in Resources */,
 				70A774422435175F00BC16A7 /* Main.storyboard in Resources */,
+				701A11B924351AB90017484A /* CalenderCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18591E5D4CFACCDFC092BE62 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomCalender-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9170EAF164BA0C9C43802E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomCalender/Pods-CustomCalender-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomCalender/Pods-CustomCalender-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomCalender/Pods-CustomCalender-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70A774332435175F00BC16A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A7743F2435175F00BC16A7 /* ViewController.swift in Sources */,
+				70A7743F2435175F00BC16A7 /* ReminderVC.swift in Sources */,
+				70A7744F2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift in Sources */,
+				709F0F1D24351D0D0094184A /* BundleLanguage.swift in Sources */,
+				709F0F1F24351D7D0094184A /* String+Extension.swift in Sources */,
+				701A11BA24351AB90017484A /* CalenderCell.swift in Sources */,
+				701A11BE24351BBE0017484A /* CalenderDate.swift in Sources */,
 				70A7743B2435175F00BC16A7 /* AppDelegate.swift in Sources */,
 				70A7743D2435175F00BC16A7 /* SceneDelegate.swift in Sources */,
+				701A11BC24351B3B0017484A /* Date+Extension.swift in Sources */,
+				709F0F2124351E960094184A /* UIColor+Extension.swift in Sources */,
+				709F0F1C24351D0D0094184A /* LanguageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		709F0F1524351D0D0094184A /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				709F0F1624351D0D0094184A /* ar */,
+				709F0F1724351D0D0094184A /* en */,
+				709F0F1A24351D0D0094184A /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		70A774402435175F00BC16A7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +411,7 @@
 		};
 		70A7744C2435176000BC16A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74927FFC507C12EE17625DE0 /* Pods-CustomCalender.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +429,7 @@
 		};
 		70A7744D2435176000BC16A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2709D402724FEDD20AE0D8D9 /* Pods-CustomCalender.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

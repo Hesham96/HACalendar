@@ -1,0 +1,560 @@
+/* 
+  Localizable.strings
+  Al-Mahata
+
+  Created by abdelrahman on 6/10/18.
+  Copyright © 2018 abdelrahman. All rights reserved.
+*/
+"Privacy" = "Privacy";
+//"Login" = "Log In";
+"Login" = "Login";
+"Home" = "Home";
+"Contact Us" = "Contact Us";
+"Setting" = "Setting";
+"Notifications" = "Notifications";
+"Logout Message" = "Are you Sure You want to logout ?";
+"Delete Message" = "Are you Sure You want to Delete ?";
+"Yes" = "Yes";
+"No" = "No";
+"Logout Title" = "Logout";
+"Email" = "Email";
+"RememberMe" = "Remember Me";
+"Password" = "Password";
+"New!" = "New!";
+"New" = "New";
+"Forgot Password ?" = "Forgot Password ?";
+"Sign Up" = "Create Account";
+"Sign In" = "Log In";
+"Connect With Facebook" = "Connect With Facebook";
+"Connection With" = "Connection With";
+"Connect With Twitter" = "Connect With Twitter";
+"Dashboard" = "Dashboard";
+"Edit Profile" = "Edit Profile";
+"Edit Phone" =  "Edit Phone";
+"Update Password"  =  "Update Password";
+"Settings" = "Settings";
+"Setting" = "Setting";
+"Switch Language" = "Switch Language";
+"Language" = "Language";
+"Logout" = "Logout";
+"Change Language Message" = "Are you sure You want To change Language ?";
+"Change Language" = "Change Language";
+"Change Password" = "Change Password";
+"Change Phone" = "Change Phone";
+"Confirm Password" = "Confirm Password";
+"City" = "City";
+"Region" = "Region";
+"Male" = "Male";
+"Famale" = "Famale";
+//"Phone" = "Mobile Number";
+"Phone" = "Phone Number";
+"Resend" = "Resend";
+"Submit" = "Submit";
+"Next" = "Next";
+"Activation Message" = "if you didn't receive the activation code within the next 30 seconds ; you can Resend the Code.";
+"Invite Friend" = "Invite Friend";
+"Invitation Profite" = "Invitation Profite";
+"Referral Link" = "Referral Link";
+"Earning Program" = "Earning Program";
+"Invitation List" = "Invitation List";
+"Withdraw Money" = "Withdraw Money";
+"Transfer Money" = "Transfer Money";
+"Sub Accounts" = "Sub Accounts";
+"Support System" = "Support System";
+"Accepted" = "Accepted";
+"Rejected" = "Rejected";
+"All Invitations" = "All Invitations";
+"Worng" = "Wrong";
+"Required" = "Required";
+"OK" = "OK";
+"error" = "Error";
+"please insert all code" = "Please insert all code";
+"wrong code" = "Wrong Code";
+"Products" = "Products";
+"Active account"  =  "Activate Account";
+
+// validation messages
+"Is Required" = "is required";
+"must contain only letter" = "must contain only letter" ;
+"Is Invalid" = "is invalid";
+"should not be numbers only"  = "should not be numbers only";
+"should be numbers only"  = "should be numbers only";
+"should not be numbers only or spcial characters"  =  "should not be numbers only or spcial characters";
+"password valid"  =  "Must be contain 1 uppercase, 1 lowercase \n and 1 number";
+"confirmation is invalid" = "confirmation is invalid";
+"must be at least" =  "must be at least";
+"may not be greater than" =  "may not be greater than";
+"characters" =  "character";
+"Success" = "Success";
+
+// amricana login page
+"Create Your Account" = "Create Your Account";
+"Forgot Your Password" = "Forgot your password ?";
+"Skip" = "Skip";
+"Help" = "Help";
+"Username" = "Username";
+
+"Continue" = "Continue";
+"Shop now" = "Shop now";
+
+"Explore" = "Explore" ;
+"Pay" = "Pay" ;
+"Fast Delivery" = "Fast Delivery" ;
+
+"Create Acccount" = "Create Acccount";
+"Already Have Account" = "Already Have Account";
+"You can register by" = "You can register by";
+"Profile Updated Successfuly" = "Profile Updated Successfuly";
+"Code Sent Successfuly" = "Code Sent Successfuly";
+"Register" = "Sign up" ;
+"Now you can start in English" = "Now you can start in English";
+"Now you can turn on alerts" = "Now you can turn on alerts" ;
+"We will:" = "We will:" ;
+"Start shopping at this moment" = "Start shopping at this moment" ;
+"Discover the wonderful features we offer you" = "Discover the wonderful features we offer you" ;
+"Start Shoping" = "Start Shoping" ;
+
+"Accessories" = "Accessories" ;
+"Favorites" = "Favorites" ;
+"Follow Orders" = "Follow Orders" ;
+"Profile" = "Profile" ;
+"Updated Successfully" = "Updated Successfully";
+"SAR" = " SAR";
+"Add To Cart" = "Add To Cart";
+"Categories" = "Categories";
+"No Products found" = "No Products found";//"Not Found Products";
+"Sorry, No Products Found In This Category" = "Sorry, No Products Found In This Category";
+"Free Delivery" = "Free Delivery";
+"Payment upon receipt" = "Payment upon receipt";
+"Delivery from 2-5 days" = "Delivery from 2-5 days";
+"My Orders" = "My Orders";
+"My Address" = "My Address";
+"My Credit Cards" = "My Credit Cards";
+"Country" = "Country";
+"Cancel" = "Cancel";
+"Done" = "Done";
+"Old Password" = "Current Password";
+"New Password" = "New Password";
+"Confirm New Password" = "Confirm New Password";
+"Update" = "Update";
+"Add Address" = "Add Address";
+"Edit Address" = "Edit Address";
+"Save" = "Save";
+"Company" = "Company";
+"Street Address1" = "Street Address 1";
+"Street Address2" = "Street Address 2";
+"Zip/Postal Code" = "Zip/Postal Code";
+"Select Country" = "Select Country";
+"Select Region" = "Select Region";
+"Orders" = "Orders";
+"Order" = "Order";
+"Date" = "Date";
+"Ship To" = "Ship To";
+"Total" = "Total";
+"Status" = "Status";
+"Order Information" = "Order Information";
+"Products Details" = "Products Details";
+"Product Details" = "Product Details";
+"Product Name" = "Product Name";
+"Price" = "Price";
+"Qty" = "Qty";
+"Shipping Address" = "Shipping Address";
+"Shipping Method" = "Shipping Method";
+"Payment Method" = "Payment Method";
+"Grand Total" = "Grand Total";
+"SKU" = "SKU";
+"Shopping & Handling" = "Shipping & Handling";
+"Not Found Orders" = "Not Found Orders";
+"No items found" = "Not Found Products";
+"Not Found Items" = "Not Found Items";
+"Not Found Results" = "Not Found Results";
+"Not Found Addresses" = "Not Found Addresses";
+"Descover Newset products Now \n be the first one how owen it and add it to your wishlist." = "Descover Newset products Now \n be the first one how owen it and add it to your wishlist.";
+"Edit" = "Edit";
+"Select" = "Select";
+"Added Successfully" = "Added Successfully";
+"Updated Successfully" = "Updated Successfully";
+"Deleted Successfully" = "Deleted Successfully";
+"Continue your purchase" = "Continue your purchase";
+"Continue shopping" = "Continue shopping";
+"Total :" = "Total :";
+"Cart" = "Cart";
+"Select Address" = "Select Address";
+
+"Choose Shipping Method" = "Choose Shipping Method";
+"Choose the shipping method you wish to add ." = "Choose the shipping method you wish to add .";
+"Only shipping methods which supports zones are listed" = "Only shipping methods which supports zones are listed";
+"Apply Order" = "Apply Order";
+"Deliver To" = "Deliver To";
+"Apply" = "Apply";
+"Discount Code" = "Dicount Code";
+"Product" = "Product";
+"Delivery Service" = "Delivery Service";
+"Apply purchase" = "Purchase" ;
+"Search" = "Search" ;
+"Please Login First" = "Please Login First" ;
+"Filter" = "Filter" ;
+"Forgot Password" = "Forgot Password";
+"Please select country first" = "Please select country first";
+
+//MARK: - Auth
+"Log In" = "Log In";
+"LOG IN" = "LOG IN";
+"SIGN UP" = "SIGN UP";
+"Welcome to chefaa" = "Welcome to Chefaa";
+"Welcome to Chefaa" = "Welcome to Chefaa";
+"Welcome to CHEFAA" = "Welcome to CHEFAA";
+"Gmail" = "Gmail";
+"Facebook" = "Facebook";
+"OR" = "OR";
+"Name" = "Full Name";
+"Send" = "Send";
+"Your SMS will be sent in seconds with verifcation code" = "Your SMS will be sent in seconds with verifcation code";
+"Forgot" = "Forgot";
+"Confirm" = "Confirm";
+"Code" = "Code";
+"Resend activation code" = "Resend the code";
+"Activation" = "Activation";
+"Verification Code" = "Verification Code";
+"Enter your code" = "Enter your code";
+"Activate Your Account" = "Activate Your Account";
+"Reset Password" = "Reset Password";
+"Reset" = "Reset";
+"Enter your new password" = "Enter your new password";
+
+"Ex : 010123456789" = "Ex : 010123456789";
+"Ex : Ahmed" =" Ex : Ahmed";
+"Ex : Chefaa@gmail.com" = "Ex : Chefaa@gmail.com";
+
+// MARK:- Home
+
+"Welcome" = "Welcome";
+"SEARCH" = "SEARCH";
+"STORE" = "STORE";
+"SCAN" = "SCAN";
+"Show All" = "Show All";
+"Best Offers" = "Best Offers";
+"Most Sales" = "Best Selling";
+//"Most Sales" = "Best selling";
+"Add to cart" = "Add to cart";
+"Delete" = "Delete";
+"AUTO" = "AUTO";
+"ON" = "ON";
+"OFF" = "OFF";
+"Guest" = "Guest";
+
+// MARK:- Order
+
+"Active Orders" = "Active Orders";
+"Pervious Orders" = "Pervious Orders";
+"Order Details" = "Order Details";
+//"Phone Number" = "Mobile Number";
+"Phone Number" = "Phone Number";
+"Cart Subtotal" = "Cart Subtotal";
+"Product Discount" = "Product Discount";
+"Cach" = "Cach";
+"Discount" = "Discount";
+"Shipping" = "Shipping";
+"EGP" = "EGP";
+
+// MARK:- Profile
+
+"Edit profile" = "Edit profile";
+"My Address book" = "My Address book";
+"Change language" = "Change language";
+
+// MARK:- Settings
+
+"Feedback" = "Feedback";
+"About Us" = "About Us";
+"FAQS" = "FAQS";
+"FAQ" = "FAQ";
+"Terms of Service" = "Terms of Service";
+"Privacy Policy" = "Privacy Policy";
+"Share Chefaa" = "Share Chefaa";
+"Rate us" = "Rate us";
+
+"We need your feedback" = "We need your feedback";
+"Help us improve Chefaa" = "Help us improve Chefaa";
+"Thanks for your feedback" = "Thanks for your feedback";
+"Please submit your feedback here..." = "Please submit your feedback here...";
+"Please submit your message here..." = "Please submit your message here...";
+
+// MARK:- Scan
+"Rescan" = "Rescan";
+"Scan" = "Scan";
+"Add any more notes (optional)" = "Add any more notes (optional)";
+
+
+
+// MARK:- Store
+"Store" = "Store";
+"All" = "All";
+"Search by product name" = "Search by product name";
+
+// MARK:- Store
+"Checkout" = "Checkout";
+"Order Now" = "Order Now";
+"Schedule order" = "Schedule order";
+
+"Payment method" = "Payment method";
+"Cash on delivery" = "Cash on delivery";
+"Pay by credit card" = "Pay by credit card";
+"Repeated Monthly" = "Repeated Monthly";
+"Address" = "Address";
+"No Search results" = "No Search results";
+"Enter Promo Code" = "Enter Promo Code";
+
+// MARK:- Profile
+
+"Female" = "Female";
+"Gender" = "Gender";
+"Select Gender" = "Select Gender";
+"Birthday" = "Birthday";
+"Enter your current password" = "Enter your current Password and your new password";
+
+"Current Password" = "Current Password";
+"Change Password" = "Change Password";
+"Address Book" = "Address Book";
+"EX : Home , Work" = "EX : Home , Work";
+"Floor No." = "Floor No.";
+"Building / Villa No." = "Building / Villa No.";
+"Landmark" = "Landmark";
+"Apartment No." = "Apartment No.";
+"Select City" = "Select City";
+"Select Area" = "Select Area";
+"Filter" = "Filter";
+"Please select city first" = "Please select city first";
+"Order created Successfully" = "Order created Successfully";
+
+// MARK:- Cancel Reason
+
+"Cancel Order" = "Cancel Order";
+"Tell us the reason you cancelled the order" = "Tell us the reason you cancelled the order";
+"Please submit your reason for cancellation here...." = "Please submit your reason for cancellation here....";
+// MARK:- Chat
+
+"Chat" = "Chat";
+"Start Chat" = "Start Chat";
+
+// MARK: - Added by Hesham
+"Please check your credentials" = "Please check your credentials";
+
+"sorry you can't cancel the order after 1 minute from acceptance" = "sorry you can't cancel the order after 1 minute from acceptance" ;
+
+"Coupon Discount" = "Coupon Discount";
+"invalid coupon" = "invalid coupon";
+"Valid discount for order above : " = "Valid discount for order above : ";
+
+"We will be available here soon" = "We will be available here soon";
+
+"%" = "%";
+
+"Confirm Order" = "Confirm Order";
+
+"Select Prescription(s)" = "Select Prescription(s)";
+
+
+"Enter Promo Code" = "Enter Promo Code" ;
+
+"You will be notified of the payment amount requested when order is accepted" = "You will be notified of the payment amount requested when order is accepted";
+
+
+"Choose To" = "Choose To";
+"Pay By" = "Pay By";
+"Credit card" = "Credit card";
+
+"No Products found to display yet" = "No Products found to display yet";
+
+"Please select reason" = "Please select reason";
+
+"Refill Monthly" = "Refill Monthly";
+
+"Save & Change" = "Save & Change";
+
+"Find Us on social media" = "Find Us on social media";
+"Please select at least one item!" = "Please select at least one item!";
+"Edit Your Profile" = "Edit Your Profile";
+"Continue" = "Continue";
+
+"Other Notes" = "Other Notes";
+"Capture or upload your\nPrescription" = "Capture or upload your\nPrescription";
+
+"Close" = "Close";
+
+"Enter your current Password and your new password" = "Enter your current Password and your new password";
+//MARK: - Blog
+"Chefaa Blog" = "Chefaa Blog";
+"Search Chefaa Blog" = "Search Chefaa Blog";
+"Article Not Found" = "Article Not Found";
+"We got it , we will write about it For you" = "We got it , we will write about it For you";
+
+"Clear" = "Clear";
+"More" = "More";
+"Order accepted you have one minute to cancel order" = "Order accepted you have one minute to cancel order";
+"sorry you can't cancel the order after 1 minute of acceptance" = "sorry you can't cancel the order after 1 minute of acceptance";
+"Order accepted can't be canceled" = "Order accepted can't be canceled";
+"Order accepted can't be canceled after one minute" = "Order accepted can't be canceled after one minute";
+"Order in preparing stage can't be canceled" = "Order in preparing stage can't be canceled";
+
+//MARK: - Offers
+"this is not a valid phone number" = "this is not a valid phone number";
+"Out of stock" = "Out of stock";
+"You will be notified in case of product re-availability" = "You will be notified in case of product re-availability";
+
+
+//MARK: - Insurance
+"My Insurance Cards" = "My Insurance Cards";
+
+"Add New Card"  = "Add New Card";
+"Please Upload One Image For Each Side" = "Please Upload One Image For Each Side";
+"Please Enter Card Holder Name" = "Please Enter Card Holder Name";
+"Please Enter A Valid Card Number" = "Please Enter A Valid Card Number";
+"Please Upload One Image For Each Side" = "Please Upload One Image For Each Side";
+"Insurance Cards" = "Insurance Cards";
+"Delete This Card" = "Delete This Card";
+"Delete" = "Delete";
+"No Insurance Cards Yet" = "No Insurance Cards Yet";
+"Start Add Your First Insurance Cards" = "Start Add Your First Insurance Cards";
+"Card Details" = "Card Details";
+
+"Card Holder Name" = "Card Holder Name";
+"Card Name" = "Card Name";
+"Card Number" = "Card Number";
+
+"Upload Your Card" = "Upload Your Card";
+"Upload Or Capture Your Card Front Side" = "Upload Or Capture Your Card Front Side";
+"Upload Or Capture Your Card Back Side" = "Upload Or Capture Your Card Back Side";
+"Delete" = "Delete";
+"Save" = "Save";
+
+//MARK: - order notes
+"Order Notes" = "Order Notes";
+
+"Product Availability,Price And Pharmacies Offers May Vary According To Your Area" = "Product Availability,Price And Pharmacies Offers May Vary According To Your Area";
+
+//MARK: - Reminder
+"New Reminder" = "New Reminder";
+"Drug Name" = "Drug Name";
+"Notes" = "Notes";
+"Quantity per intake " = "Quantity per intake ";
+"Times per day" = "Times per day";
+"+ New time" = "+ New time";
+"Save" = "Save";
+
+"Repeat for" = "Repeat for";
+"Take On" = "Take On";
+"Specific days" = "Specific days";
+
+
+"Medication Reminder" = "Medication Reminder";
+"Time" = "Time";
+"Today's Reminders" = "Today's Reminders";
+"This Day Has No Reminders" = "This Day Has No Reminders";
+"Never Miss Your Dose Again And Start Adding Your Reminders" = "Never Miss Your Dose Again And Start Adding Your Reminders";
+"Notes" = "Notes";
+
+"Every Day" = "Every Day" ;
+"Limit Days" = "Limit Days";
+"Specific Days" = "Specific Days";
+"Today Only"  = "Today Only";
+"Start from" = "Start from";
+
+"Take On" = "Take On";
+"Select Specific Days To Remind You Of Your Doses" = "Select Specific Days To Remind You Of Your Doses";
+"+ Add New Day" = "+ Add New Day";
+"This day is existed before" = "This day is existed before";
+"Day" = "Day";
+
+"Take On" = "Take On";
+"Select Specific Days To Remind You Of Your Doses" = "Select Specific Days To Remind You Of Your Doses";
+"+ Add New Day" = "+ Add New Day";
+"This day is existed before" = "This day is existed before";
+"Day" = "Day";
+
+"Start date can't be in past." = "Start date can't be in past.";
+"Days" = "Days";
+"Add Your Days" ="Add Your Days" ;
+"Duration" = "Duration";
+"Limit Days" = "Limit Days";
+
+"Please add days" = "Please add days";
+"Please add times" = "Please add times";
+"Chefaa Reminder🔔" = "Chefaa Reminder🔔";
+"Time to take your medication" = "Time to take your medication";
+
+"Medication Reminder" = "Medication Reminder";
+"Drug Name Is Required" = "Drug Name Is Required" ;
+"saved successfuly" = "saved successfuly" ;
+"Are you sure you want to permanently delete the Reminder?" = "Are you sure you want to permanently delete the Reminder?";
+"Yes, Delete" = "Yes, Delete";
+
+"pills" = "pills";
+
+//MARK: - Tracking
+"Placed" = "Placed";
+"In-Progress" = "In-Progress";
+"Delivered" = "Delivered";
+"Cancelled" = "Cancelled";
+
+"Your order been placed and we sending it to the pharmacy" = "Your order been placed and we sending it to the pharmacy";
+
+"Assigning a pharmacy that can deliver your order may take few minutes" = "Assigning a pharmacy that can deliver your order may take few minutes";
+
+"Your order is accepted by a pharmacy and is being prepared" = "Your order is accepted by a pharmacy and is being prepared";
+
+"Your order is out for delivery" = "Your order is out for delivery";
+
+"Your order is delivered successfully" = "Your order is delivered successfully";
+
+"Your Order Is Cancelled" = "Your Order Is Cancelled";
+
+"Rate this order" = "Rate this order";
+
+//MARK: - Review
+"Please, rate your last order" = "Please, rate your last order";
+"Chefaa Service" = "Chefaa Service";
+"The pharmacy" = "The pharmacy";
+"Thanks for rating" = "Thanks for rating";
+
+
+//MARK: -Updated Scan Cart
+"Ex: Panadol" = "Ex: Panadol";
+"Type Your Order" = "Type Your Order";
+
+"Invite your friends" = "Invite your friends";
+
+//MARK: - Wallet
+"Wallet" = "Wallet";
+"Transactions History" = "Transactions History";
+"This Month" = "This Month";
+"No transactions" = "No Transactions";
+"Here you can track all your transactions" = "Here you can track all your transactions";
+"Available Balance" = "Available Balance";
+"Received" = "Received";
+"Expired" = "Expired";
+"valid till" = "valid till";
+"My Wallet" = "Wallet";
+"Wallet Discount" = "Wallet Discount";
+
+//MARK: - SideMenu
+"Addresses Book" = "Addresses Book";
+"Rate App"  =  "Rate App";
+"Submit Register" = "Submit";
+
+//MARK: Chefaa Box
+"CHEFAA box is delivered within 2 business days" = "CHEFAA box is delivered within 2 business days";
+"The shipping company has your order & will be delivered in 2-3 business days" = "The shipping company has your order & will be delivered in 2-3 business days";
+
+//MARK: Search Page
+"No Results Found" = "No Results Found";
+"Are you looking for an unavailable product?\nYou can still send your request through the support" = "Are you looking for an unavailable product?\nYou can still send your request through the support";
+
+//order details
+"visa" = "Visa";
+"cash" = "Cash";
+
+//MARK: - Filter
+"brand selected" = "brand selected";
+"View" = "View";
+"All products" = "All products";
