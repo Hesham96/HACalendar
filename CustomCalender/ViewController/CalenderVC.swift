@@ -96,8 +96,11 @@ class CalenderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
         }
     }
     
+}
+
+//MARK: CollectionView Handling
+extension CalenderVC{
     
-    //MARK: CollectionView Handling
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return monthDays.count
     }
@@ -109,14 +112,11 @@ class CalenderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     func calenderCellConfig(_ indexPath:IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CalenderCell", for: indexPath) as! CalenderCell
         
-        //MARK: Handle Language
-        
         let dIndex = monthDays[indexPath.row].day ?? 0
         let dName = monthDays[indexPath.row].dayName ?? ""
-        //MARK: Handle if today
+        //Handle if today
         cell.isToday = dIndex == dayIndex && monthDays[indexPath.row].date?.timestamp.toStringCurrentTimeZone == Date().toStringCurrentTimeZone
         
-        //MARK: Configure Calender cell
         cell.config(
             dayIndex: dIndex,
             dayName: dName,
@@ -127,7 +127,6 @@ class CalenderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         selectedIndex = indexPath.row
-//        reminders = ReminderUtil.getTimeLineByDate(date: monthDays[indexPath.row].date?.timestamp ?? Date())
         self.collectionView.reloadData()
     }
     
@@ -160,12 +159,9 @@ extension CalenderVC : DatePickerDelegate {
                 
                 monthDays = getNumberOfDays(Year: yearIndex ?? 1, month: monthIndex ?? 1 , selectedDay:dIndex)
                 selectedIndex = dIndex - 1
-//                self.collectionView.reloadSections([0])
                 self.collectionView.reloadData()
-//                reminders = ReminderUtil.getTimeLineByDate(date: monthDays[selectedIndex].date?.timestamp ?? Date())
             }
         }
-        
     }
     
     func getNumberOfDays(Year:Int , month:Int , selectedDay:Int) -> [CalenderDate] {
@@ -198,7 +194,6 @@ extension CalenderVC : DatePickerDelegate {
         return calenderDates
     }
 }
-
 
 extension CalenderVC : UICollectionViewDelegateFlowLayout{
     

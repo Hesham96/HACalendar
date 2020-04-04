@@ -32,7 +32,7 @@
                                         </constraints>
                                         <state key="normal" image="iconCalender"/>
                                         <connections>
-                                            <action selector="openCalenderAction:" destination="Bhr-Op-5DY" eventType="touchUpInside" id="o6p-Df-IdE"/>
+                                            <action selector="openCalenderAction:" destination="Bhr-Op-5DY" eventType="touchUpInside" id="Fck-ZH-8nv"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -130,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="1886.9565217391305" y="-95.089285714285708"/>
         </scene>
-        <!--Date Picker-->
+        <!--Date PickerVC-->
         <scene sceneID="FWk-az-4Og">
             <objects>
-                <viewController storyboardIdentifier="ReminderDatePicker" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MS0-wT-0bK" customClass="DatePicker" customModule="CustomCalender" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DatePickerVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MS0-wT-0bK" customClass="DatePickerVC" customModule="CustomCalender" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XVI-9f-D1o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
