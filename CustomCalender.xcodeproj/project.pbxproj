@@ -19,11 +19,11 @@
 		709F0F30243526110094184A /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709F0F2F243526110094184A /* UIView+Extension.swift */; };
 		70A7743B2435175F00BC16A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743A2435175F00BC16A7 /* AppDelegate.swift */; };
 		70A7743D2435175F00BC16A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743C2435175F00BC16A7 /* SceneDelegate.swift */; };
-		70A7743F2435175F00BC16A7 /* ReminderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743E2435175F00BC16A7 /* ReminderVC.swift */; };
+		70A7743F2435175F00BC16A7 /* CalenderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7743E2435175F00BC16A7 /* CalenderVC.swift */; };
 		70A774422435175F00BC16A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A774402435175F00BC16A7 /* Main.storyboard */; };
 		70A774442435176000BC16A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70A774432435176000BC16A7 /* Assets.xcassets */; };
 		70A774472435176000BC16A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70A774452435176000BC16A7 /* LaunchScreen.storyboard */; };
-		70A7744F2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */; };
+		70A7744F2435187E00BC16A7 /* DatePickerVC+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70A7744E2435187E00BC16A7 /* DatePickerVC+Delegate.swift */; };
 		9253D844EF56784F80520B99 /* Pods_CustomCalender.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FA1012E8B387FEE40FA380 /* Pods_CustomCalender.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,11 +46,11 @@
 		70A774372435175F00BC16A7 /* CustomCalender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCalender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70A7743A2435175F00BC16A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70A7743C2435175F00BC16A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70A7743E2435175F00BC16A7 /* ReminderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVC.swift; sourceTree = "<group>"; };
+		70A7743E2435175F00BC16A7 /* CalenderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderVC.swift; sourceTree = "<group>"; };
 		70A774432435176000BC16A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70A774462435176000BC16A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70A774482435176000BC16A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ReminderDatePicker+Delegate.swift"; sourceTree = "<group>"; };
+		70A7744E2435187E00BC16A7 /* DatePickerVC+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DatePickerVC+Delegate.swift"; sourceTree = "<group>"; };
 		74927FFC507C12EE17625DE0 /* Pods-CustomCalender.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomCalender.debug.xcconfig"; path = "Target Support Files/Pods-CustomCalender/Pods-CustomCalender.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,8 +132,8 @@
 		709F0F2D243523B70094184A /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				70A7743E2435175F00BC16A7 /* ReminderVC.swift */,
-				70A7744E2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift */,
+				70A7743E2435175F00BC16A7 /* CalenderVC.swift */,
+				70A7744E2435187E00BC16A7 /* DatePickerVC+Delegate.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -308,8 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70A7743F2435175F00BC16A7 /* ReminderVC.swift in Sources */,
-				70A7744F2435187E00BC16A7 /* ReminderDatePicker+Delegate.swift in Sources */,
+				70A7743F2435175F00BC16A7 /* CalenderVC.swift in Sources */,
+				70A7744F2435187E00BC16A7 /* DatePickerVC+Delegate.swift in Sources */,
 				709F0F1D24351D0D0094184A /* BundleLanguage.swift in Sources */,
 				709F0F1F24351D7D0094184A /* String+Extension.swift in Sources */,
 				701A11BA24351AB90017484A /* CalenderCell.swift in Sources */,

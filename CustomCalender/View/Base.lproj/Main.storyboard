@@ -7,10 +7,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--ReminderVC-->
+        <!--CalenderVC-->
         <scene sceneID="eRU-3a-XPG">
             <objects>
-                <viewController storyboardIdentifier="ReminderVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bhr-Op-5DY" customClass="ReminderVC" customModule="CustomCalender" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="CalenderVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Bhr-Op-5DY" customClass="CalenderVC" customModule="CustomCalender" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="wOc-jn-EYx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -120,7 +120,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="6oO-gr-nEG"/>
                     <connections>
+                        <outlet property="arabicBtn" destination="odV-tX-HWi" id="rDG-ea-1bq"/>
                         <outlet property="collectionView" destination="0pM-9D-tQG" id="thq-yX-u4V"/>
+                        <outlet property="englishBtn" destination="jaS-7X-pSa" id="S9w-2P-aNE"/>
                         <outlet property="monthLabel" destination="sEN-iV-aRd" id="9Nu-tZ-foI"/>
                     </connections>
                 </viewController>
@@ -128,10 +130,10 @@
             </objects>
             <point key="canvasLocation" x="1886.9565217391305" y="-95.089285714285708"/>
         </scene>
-        <!--Reminder Date Picker-->
+        <!--Date Picker-->
         <scene sceneID="FWk-az-4Og">
             <objects>
-                <viewController storyboardIdentifier="ReminderDatePicker" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MS0-wT-0bK" customClass="ReminderDatePicker" customModule="CustomCalender" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ReminderDatePicker" useStoryboardIdentifierAsRestorationIdentifier="YES" id="MS0-wT-0bK" customClass="DatePicker" customModule="CustomCalender" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XVI-9f-D1o">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

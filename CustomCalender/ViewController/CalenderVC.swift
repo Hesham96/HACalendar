@@ -1,7 +1,7 @@
 import UIKit
 import SwiftyJSON
 
-class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource{
+class CalenderVC: UIViewController,UICollectionViewDelegate,UICollectionViewDataSource{
     
     var monthDays:[CalenderDate] = []
     var selectedDate:Date?
@@ -9,16 +9,21 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     var monthIndex:Int?
     var yearIndex:Int?
     var dayIndex:Int = 0
-        
+    var selectedIndex = 0
+
     @IBOutlet weak var monthLabel: UILabel!
     @IBOutlet weak var collectionView: UICollectionView!
     
-    var selectedIndex = 0
+    @IBOutlet weak var englishBtn: UIButton!
+    @IBOutlet weak var arabicBtn: UIButton!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
         setup()
         collectionView.contentInset = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 16)
+        englishBtn.slideFromLeft()
+        arabicBtn.slideFromLeft(duration: 1.2, completionDelegate: nil)
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -67,7 +72,7 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     //MARK: Open Calender
     @IBAction func openCalenderAction(_ sender: Any) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "ReminderDatePicker") as! ReminderDatePicker
+        let vc = storyboard.instantiateViewController(withIdentifier: "DatePickerVC") as! DatePickerVC
         vc.modalPresentationStyle = .overCurrentContext
         vc.delegate = self
         self.navigationController?.present(vc, animated: true, completion: nil)
@@ -123,14 +128,14 @@ class ReminderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
 }
 
 
-extension ReminderVC{
+extension CalenderVC{
     //MARK: Cell Registeration
     func collectionViewCellRegister(){
         collectionView.register(UINib(nibName: "CalenderCell", bundle: nil), forCellWithReuseIdentifier: "CalenderCell")
     }
 }
 
-extension ReminderVC : ReminderDatePickerDelegate {
+extension CalenderVC : DatePickerDelegate {
     
     func date(_ date: Date?)
     {
@@ -189,7 +194,7 @@ extension ReminderVC : ReminderDatePickerDelegate {
 }
 
 
-extension ReminderVC : UICollectionViewDelegateFlowLayout{
+extension CalenderVC : UICollectionViewDelegateFlowLayout{
     
     func collectionView(_ collectionView: UICollectionView,
                         layout collectionViewLayout: UICollectionViewLayout,
@@ -201,26 +206,5 @@ extension ReminderVC : UICollectionViewDelegateFlowLayout{
                         layout collectionViewLayout: UICollectionViewLayout,
                         insetForSectionAt section: Int) -> UIEdgeInsets {
         return UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 8)
-    }
-}
-
-extension ReminderVC{
-    func changLanguage() {
-        
-        // Create Alet View Controller
-//        let alertController = alertViewController( "Change Language".locale,message:"",preferredStyle:.actionSheet)
-        // Create Upgrade Action
-//        let englishAction = defaultAlertAction("English") { (action) in
-//            if LanguageManager.shared.currentLanguage == .ar {
-//                self.setLanguage(.en)
-//            }
-//        }
-        // Create Upgrade Action
-//        let arabicAction = defaultAlertAction("العربية") { (action) in
-//            if LanguageManager.shared.currentLanguage == .en {
-//                self.setLanguage(.ar)
-//            }
-//        }
-        
     }
 }

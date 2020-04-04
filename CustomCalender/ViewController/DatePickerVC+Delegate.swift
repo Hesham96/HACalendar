@@ -1,14 +1,14 @@
 import UIKit
 
-protocol ReminderDatePickerDelegate {
+protocol DatePickerDelegate {
     func date(_ date:Date?)
 }
 
-class ReminderDatePicker: UIViewController {
+class DatePickerVC: UIViewController {
     
     @IBOutlet weak var pickerView: UIDatePicker!
     
-    var delegate:ReminderDatePickerDelegate?
+    var delegate:DatePickerDelegate?
     var minimumDate : Date?
     var maximumDate : Date?
     
