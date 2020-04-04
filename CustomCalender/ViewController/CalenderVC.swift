@@ -22,8 +22,14 @@ class CalenderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
         super.viewDidLoad()
         setup()
         collectionView.contentInset = UIEdgeInsets(top: 0, left: 8, bottom: 0, right: 16)
-        englishBtn.slideFromLeft()
-        arabicBtn.slideFromLeft(duration: 1.2, completionDelegate: nil)
+        collectionView.slideFromLeft()
+        englishBtn.slideFromBottom(duration: 1.1, completionDelegate: nil)
+        arabicBtn.slideFromBottom(duration: 1.2, completionDelegate: nil)
+        
+        monthLabel.alpha = 0
+        UIView.animate(withDuration: 1.9) {
+            self.monthLabel.alpha = 1
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
