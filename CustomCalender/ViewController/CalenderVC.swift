@@ -32,15 +32,15 @@ class CalenderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
         }
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        reverseCalender()
-    }
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        reverseCalender()
+//    }
     
     func reverseCalender(){
-//        if LanguageManager.shared.currentLanguage == .ar{
-//            collectionView.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
-//        }
+        if LanguageManager.shared.currentLanguage == .ar{
+            collectionView.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+        }
     }
     
     func setup(){
@@ -87,12 +87,16 @@ class CalenderVC: UIViewController,UICollectionViewDelegate,UICollectionViewData
     @IBAction func changeToEnglishAction(_ sender: Any) {
         if LanguageManager.shared.currentLanguage == .ar {
 //            LanguageManager.shared.setLanguage(language: .en)
+//            reverseCalender()
+//            collectionView.reloadData()
         }
     }
     
     @IBAction func changeToArabicAction(_ sender: Any) {
         if LanguageManager.shared.currentLanguage == .en {
 //            LanguageManager.shared.setLanguage(language: .ar)
+//            reverseCalender()
+//            collectionView.reloadData()
         }
     }
     
@@ -121,7 +125,10 @@ extension CalenderVC{
             dayIndex: dIndex,
             dayName: dName,
             isSelectedCell: indexPath.row == selectedIndex
-        )
+        )        
+        if LanguageManager.shared.currentLanguage == .ar{
+//            cell.transform = CGAffineTransform(scaleX: -1.0, y: 1.0)
+        }
         return cell
     }
     
@@ -158,10 +165,11 @@ extension CalenderVC : DatePickerDelegate {
                 dayIndex = dIndex
                 
                 monthDays = getNumberOfDays(Year: yearIndex ?? 1, month: monthIndex ?? 1 , selectedDay:dIndex)
-                selectedIndex = dIndex - 1
+                selectedIndex = dayIndex - 1
                 self.collectionView.reloadData()
             }
         }
+
     }
     
     func getNumberOfDays(Year:Int , month:Int , selectedDay:Int) -> [CalenderDate] {
@@ -194,6 +202,7 @@ extension CalenderVC : DatePickerDelegate {
         return calenderDates
     }
 }
+
 
 extension CalenderVC : UICollectionViewDelegateFlowLayout{
     
